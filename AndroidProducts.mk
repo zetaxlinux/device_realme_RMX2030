@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_laurel_sprout.mk
+    $(LOCAL_DIR)/lineage_RMX2030.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_laurel_sprout-user \
-    lineage_laurel_sprout-userdebug \
-    lineage_laurel_sprout-eng
+    lineage_RMX2030-user \
+    lineage_RMX2030-userdebug \
+    lineage_RMX2030-eng

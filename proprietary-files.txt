@@ -1,15 +1,5 @@
 # RMX2030 package version: RMX2030EX_11_A.19, unless stated otherwise
 
-# Audio hardware
-vendor/lib/hw/audio.primary.trinket.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libtinycompress.so
-vendor/lib64/hw/audio.primary.trinket.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libtinycompress.so
-
 # Fingerprint - from motorola/troika_retail/troika_sprout:10/QSBS30.62-17-17-7/6755b:user/release-keys
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-RMX2030|ad879e7ed06f50c804e79fb9312614c4fdef49e5
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-RMX2030.rc|db34a77b04a6ded4b7d79c8dcad1f96eb3308995

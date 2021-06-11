@@ -1,4 +1,4 @@
-# laurel_sprout package version: V11.0.22.0.QFQMIXM, unless stated otherwise
+# RMX2030 package version: RMX2030EX_11_A.19, unless stated otherwise
 
 # Audio hardware
 vendor/lib/hw/audio.primary.trinket.so
@@ -10,34 +10,65 @@ vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libtinycompress.so
 
-# Fingerprint sensor
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+# Fingerprint - from motorola/troika_retail/troika_sprout:10/QSBS30.62-17-17-7/6755b:user/release-keys
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-RMX2030|ad879e7ed06f50c804e79fb9312614c4fdef49e5
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-RMX2030.rc|db34a77b04a6ded4b7d79c8dcad1f96eb3308995
+
+# Fingerprint
+vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service
+vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
+vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service
+vendor/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc
+vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc
+vendor/etc/permissions/com.fingerprints.extension.xml
+vendor/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml
+-vendor/framework/com.fingerprints.extension.jar
+vendor/lib/android.frameworks.faceservice@1.0.so
+vendor/lib/libalipay_factory.so
+vendor/lib/vendor.oppo.hardware.biometrics.face@1.0.so
+vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
+vendor/lib/vendor.qti.hardware.biometrics.face@1.0.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.goodix_fod.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/android.frameworks.fingerprintservice@1.0.so
+vendor/lib64/libalipay_factory.so
+vendor/lib64/libRbsFlow.so
+vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
+vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/vendor.oppo.hardware.biometrics.fingerprintpay@1.0.so
+vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
+vendor/lib64/vendor.qti.hardware.biometrics.face@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/vendor.qti.hardware.fingerprintext@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+vendor/lib64/hw/libets_teeclient_v2.so
 
-# Thermal
-vendor/etc/thermal-engine-high.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-nolimits.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine.conf
+# Fingerprint firmware
+vendor/firmware/egista.b00
+vendor/firmware/egista.b01
+vendor/firmware/egista.b02
+vendor/firmware/egista.b03
+vendor/firmware/egista.b04
+vendor/firmware/egista.b05
+vendor/firmware/egista.b06
+vendor/firmware/egista.b07
+vendor/firmware/egista.mdt
 
-# Touchscreen firmware
-vendor/firmware/tp/19743/RA170A1.bin
-vendor/firmware/tp/19743/RA170A1.ini
-vendor/firmware/tp/19743/RA170X1.bin
-vendor/firmware/tp/19743/RA170X1.ini
-vendor/firmware/tp/19743/ilitek_fw_inx_signed.bin
-vendor/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin
-vendor/firmware/tp/19743/nt_hlt_fw.bin
-vendor/firmware/tp/19743/nt_hlt_fw_mp.bin
-vendor/firmware/tp/19743/nt_hlt_fw_signed.bin
-vendor/firmware/tp/19743/nt_hltg_fw.bin
-vendor/firmware/tp/19743/nt_hltg_fw_mp.bin
-vendor/firmware/tp/19743/nt_hltg_fw_signed.bin
+# Thermal - from laurel_sprout V11.0.22.0.QFQMIXM
+vendor/etc/thermal-engine-high.conf|646948a5d3a378feb1595c63c578407af6f70b90
+vendor/etc/thermal-engine-map.conf|8cee010443a42052353f3134894dc8d6b2280a23
+vendor/etc/thermal-engine-nolimits.conf|4ba48db70f7afd6f0e4387859c3ebe91ac723eb1
+vendor/etc/thermal-engine-normal.conf|c1be4316dbd1bba97f58e4f508abf0d20c375b9b
+vendor/etc/thermal-engine.conf|1721adec8d87b35e17fb1a52b3346a67a2006704
+
+# Touchscreen firmware - from RMX1911EX_11_1690
+vendor/firmware/tp/19743/RA170A1.bin|05a4e56165333556988c188002bee58184f18e41
+vendor/firmware/tp/19743/RA170A1.ini|e11775efb7dff845bcbc12b581b2d507724bd5e4
+vendor/firmware/tp/19743/RA170X1.bin|47e70e3d19f4a744f6ebe97a06fc2cc8a2f43d9b
+vendor/firmware/tp/19743/RA170X1.ini|5050d16b521be7f94a7bccd3616eb2fb30edff8f
+vendor/firmware/tp/19743/ilitek_fw_inx_signed.bin|ca3f1c706ad6d20ca7648e69413e7df2d4fe890f
+vendor/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin|805604a0ce5d024ea1a712f9a74fab3022ed5b22
+vendor/firmware/tp/19743/nt_hlt_fw.bin|8dec20a19a8f99b0dddbe2802895154c630efe26
+vendor/firmware/tp/19743/nt_hlt_fw_mp.bin|31a0970b35755aa743b130c03d9e74deea47c4a4
+vendor/firmware/tp/19743/nt_hlt_fw_signed.bin|33ec156af41b76ee6b84c1a4bf077e44b19b95cf
+vendor/firmware/tp/19743/nt_hltg_fw.bin|c4f814379aebeb5bab08fac89a75ba3f6eca341b
+vendor/firmware/tp/19743/nt_hltg_fw_mp.bin|31a0970b35755aa743b130c03d9e74deea47c4a4
+vendor/firmware/tp/19743/nt_hltg_fw_signed.bin|adb48dc0dda20da66c5348536fdd316c00b072d3

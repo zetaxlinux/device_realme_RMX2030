@@ -5,29 +5,17 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs:vendor/bin
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-RMX2030.rc|db34a77b04a6ded4b7d79c8dcad1f96eb3308995
 
 # Fingerprint
-vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
-vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service
-vendor/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc
 vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc
 vendor/etc/permissions/com.fingerprints.extension.xml
-vendor/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml
 -vendor/framework/com.fingerprints.extension.jar
-vendor/lib/android.frameworks.faceservice@1.0.so
-vendor/lib/libalipay_factory.so
-vendor/lib/vendor.oppo.hardware.biometrics.face@1.0.so
 vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
-vendor/lib/vendor.qti.hardware.biometrics.face@1.0.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/android.frameworks.fingerprintservice@1.0.so
-vendor/lib64/libalipay_factory.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.oppo.hardware.biometrics.fingerprintpay@1.0.so
 vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
-vendor/lib64/vendor.qti.hardware.biometrics.face@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/libets_teeclient_v2.so
 

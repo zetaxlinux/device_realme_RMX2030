@@ -42,6 +42,14 @@ vendor/firmware/egista.b06
 vendor/firmware/egista.b07
 vendor/firmware/egista.mdt
 
+# Oppo (hypnus)
+vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service
+vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc
+vendor/lib/libhypnusclient.so
+vendor/lib/vendor.oppo.hardware.hypnus@1.0.so
+vendor/lib64/libhypnusclient.so
+vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
+
 # Thermal - from laurel_sprout V11.0.22.0.QFQMIXM
 vendor/etc/thermal-engine-high.conf|646948a5d3a378feb1595c63c578407af6f70b90
 vendor/etc/thermal-engine-map.conf|8cee010443a42052353f3134894dc8d6b2280a23

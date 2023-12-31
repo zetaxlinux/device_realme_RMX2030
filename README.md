@@ -47,3 +47,4 @@ The Realme 5i is a mid-range smartphone from Realme. It was announced and releas
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# device_realme_RMX2030

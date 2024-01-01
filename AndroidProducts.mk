@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2030.mk
+    $(LOCAL_DIR)/aosp_RMX2030.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX2030-user \
-    lineage_RMX2030-userdebug \
-    lineage_RMX2030-eng
+    aosp_RMX2030-user \
+    aosp_RMX2030-userdebug \
+    aosp_RMX2030-eng

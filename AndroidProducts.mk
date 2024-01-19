@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX2030.mk
+    $(LOCAL_DIR)/nad_RMX2030.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX2030-user \
-    aosp_RMX2030-userdebug \
-    aosp_RMX2030-eng
+    nad_RMX2030-user \
+    nad_RMX2030-userdebug \
+    nad_RMX2030-eng
